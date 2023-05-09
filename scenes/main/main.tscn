@@ -1,11 +1,12 @@
-[gd_scene load_steps=7 format=3 uid="uid://bfok5is7jmxoq"]
+[gd_scene load_steps=8 format=3 uid="uid://c83se1tfig8ba"]
 
 [ext_resource type="PackedScene" uid="uid://bx6dynssj83u0" path="res://scenes/ui/arena_time_ui.tscn" id="1_1ew78"]
 [ext_resource type="TileSet" uid="uid://cwy2i5mf7m776" path="res://resources/tileset.tres" id="1_4tdse"]
-[ext_resource type="PackedScene" uid="uid://bmabegauvus53" path="res://scenes/manager/enemy_manager.tscn" id="1_kbaps"]
-[ext_resource type="PackedScene" uid="uid://dp5eiftxqtawc" path="res://scenes/player/player.tscn" id="1_vmbjg"]
+[ext_resource type="PackedScene" path="res://scenes/manager/enemy_manager.tscn" id="1_kbaps"]
+[ext_resource type="PackedScene" uid="uid://c4d3bj4spm8w0" path="res://scenes/game_object/player/player.tscn" id="1_vmbjg"]
 [ext_resource type="PackedScene" uid="uid://fqf0uub22cbj" path="res://scenes/manager/arena_time_manager.tscn" id="2_grf1b"]
-[ext_resource type="PackedScene" uid="uid://bhnqq4ano5m2j" path="res://scenes/game_camera/game_camera.tscn" id="3_fllfh"]
+[ext_resource type="PackedScene" path="res://scenes/game_object/game_camera/game_camera.tscn" id="3_fllfh"]
+[ext_resource type="PackedScene" uid="uid://ckxfdv2em2dfe" path="res://scenes/game_object/experience_vial/experience_vial.tscn" id="7_xrqfa"]
 
 [node name="Main" type="Node"]
 
@@ -25,3 +26,18 @@ layer_0/tile_data = PackedInt32Array(917534, 0, 4, 851998, 0, 4, 786462, 0, 4, 7
 
 [node name="Player" parent="." instance=ExtResource("1_vmbjg")]
 position = Vector2(508, 409)
+
+[node name="ExperienceVial" parent="." instance=ExtResource("7_xrqfa")]
+position = Vector2(597, 398)
+
+[node name="ExperienceVial2" parent="." instance=ExtResource("7_xrqfa")]
+position = Vector2(235, 639)
+
+[node name="ExperienceVial3" parent="." instance=ExtResource("7_xrqfa")]
+position = Vector2(535, 110)
+
+[node name="ExperienceVial4" parent="." instance=ExtResource("7_xrqfa")]
+position = Vector2(202, 304)
+
+[node name="ExperienceVial5" parent="." instance=ExtResource("7_xrqfa")]
+position = Vector2(701, 703)
