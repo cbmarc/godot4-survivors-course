@@ -1,5 +1,4 @@
-extends Node
-class_name HealthComponent
+class_name HealthComponent extends Node
 
 signal died
 
