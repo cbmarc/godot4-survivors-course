@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Ability" load_steps=3 format=3 uid="uid://dnjjdnx5b3o07"]
+
+[ext_resource type="PackedScene" uid="uid://sa0yjm1n7se7" path="res://scenes/ability/axe_ability_controller/axe_ability_controller.tscn" id="1_004bu"]
+[ext_resource type="Script" path="res://resources/upgrades/ability.gd" id="2_qimvb"]
+
+[resource]
+script = ExtResource("2_qimvb")
+ability_controller_scene = ExtResource("1_004bu")
+id = "axe"
+name = "Axe"
+description = "Hurl a spinning axe that cleaves through enemies like butter!"
