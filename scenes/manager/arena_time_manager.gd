@@ -23,7 +23,6 @@ func _process(delta):
 		arena_dificulty_increased.emit(arena_dificulty)
 		
 	
-	
 func get_time_elapsed():
 	return timer.wait_time - timer.time_left
 
