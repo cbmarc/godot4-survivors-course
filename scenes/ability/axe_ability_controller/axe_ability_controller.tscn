@@ -9,5 +9,5 @@ axe_ability_scene = ExtResource("2_326wc")
 
 [node name="Timer" type="Timer" parent="."]
 unique_name_in_owner = true
-wait_time = 2.0
+wait_time = 3.5
 autostart = true
